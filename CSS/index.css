@@ -1,0 +1,716 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Titillium web;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+nav li {
+  display: inline;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: #ff6b00;
+}
+
+nav li:last-child {
+  padding-right: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bg-black {
+  color: white;
+  background-color: black;
+}
+
+.bg-white {
+  color: black;
+}
+
+.bg-frame {
+  border: 10px solid white;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.structure {
+  padding: 50px 66px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+  padding: 10px 66px;
+}
+
+.intro {
+  font-weight: 400;
+  font-size: 96px;
+  padding: 20px 0;
+}
+
+.intro span {
+  display: block;
+  font-weight: 600;
+  font-size: 100px;
+}
+
+.profession {
+  font-weight: 600;
+  font-size: 50px;
+  padding: 60px 0;
+}
+
+.downloadbtn {
+  width: 300px;
+  height: 72px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.profile-photo {
+  width: 500px;
+  height: 500px;
+}
+
+.social {
+  width: 86.15px;
+  height: 67.67px;
+  background-color: black;
+  color: white;
+  font-size: 46.15px;
+  position: relative;
+  margin: 0 8.64px;
+}
+
+.social:first-child {
+  margin-left: 0;
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+
+.social::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social-icon {
+  display: flex;
+  padding-top: 30.9px;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 66px;
+  align-items: flex-end;
+}
+
+.education-style {
+  padding: 42px 111.2px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.course {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.skill-detail {
+  display: grid;
+  padding-top: 50px;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+}
+
+.skill-name {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 24px;
+}
+
+.skill {
+  padding: 11px 45px 0;
+  box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.experience-style {
+  margin-top: 50px;
+  padding: 31px 90px;
+}
+
+.title-location {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.location-container {
+  padding-left: 50px;
+  text-align: right;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.job-detail h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.job-detail h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.experience-style > p {
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-card {
+  width: 552px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 50px;
+  text-align: center;
+}
+
+.project img,
+.project p {
+  margin: 0 50px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.project-card img {
+  padding-bottom: 50px;
+}
+
+label {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 5px solid white;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-size: 22px;
+}
+
+input:focus,
+textarea:focus {
+  border: 5px solid #0cd6c9;
+}
+
+form {
+  padding-top: 25px;
+}
+
+form > div {
+  padding: 25px 0;
+}
+
+form > div:last-child {
+  padding: 0;
+}
+
+input {
+  height: 60px;
+}
+
+textarea {
+  height: 180px;
+}
+
+#name {
+  display: flex;
+  gap: 34px;
+}
+
+#name div {
+  flex-grow: 1;
+}
+
+#submitbtn input {
+  background-color: #23e81f;
+  border: none;
+  color: black;
+  align-items: center;
+  width: auto;
+  padding: 0 80px;
+  margin-top: 25px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#submitbtn {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 0;
+}
+
+#copyright {
+  vertical-align: middle;
+}
+
+/**************** media query(1276px) *********************/
+@media screen and (max-width: 1276px) {
+  .intro {
+    padding: 10px 0;
+  }
+
+  .profession {
+    font-size: 42px;
+  }
+
+  .profile-photo {
+    width: 450px;
+    height: 450px;
+  }
+
+  .social {
+    width: 76px;
+    height: 60px;
+  }
+
+  .project img,
+  .project p {
+    margin: 0 10px;
+  }
+
+  .project-card {
+    width: 399px;
+  }
+}
+
+/**************** media query(1050px) *********************/
+@media screen and (max-width: 1050px) {
+  .intro span {
+    font-size: 80px;
+  }
+
+  .profession {
+    font-size: 38px;
+  }
+
+  .skill-detail {
+    grid-template-columns: auto auto auto;
+  }
+
+  .skill img {
+    width: 125px;
+    height: 125px;
+  }
+
+  .skill {
+    padding: 11px 40px;
+  }
+
+  .experience-style{
+    padding: 20px 10px;
+  }
+
+  .experience-style>p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .location-container {
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 0;
+  }
+}
+
+/**************** media query(970px) *********************/
+@media screen and (max-width: 970px) {
+  .header {
+    padding: 10px 35px;
+  }
+
+  nav li {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .intro {
+    padding: 10px 0;
+    font-size: 42px;
+    font-weight: 400;
+  }
+
+  .intro span {
+    font-size: 70px;
+  }
+
+  .profile-photo {
+    width: 400px;
+    height: 400px;
+  }
+
+  .profession {
+    font-size: 36px;
+  }
+
+  .profile-photo {
+    width: 350px;
+    height: 350px;
+  }
+
+  .social {
+    width: 56px;
+    height: 60px;
+  }
+
+  .social::before {
+    font-size: 30px;
+  }
+
+  .downloadbtn {
+    width: 250px;
+    height: 60px;
+  }
+
+  .education-style {
+    padding: 42px 70px;
+  }
+
+  .project-card {
+    width: 344px;
+  }
+
+  .project img {
+    width: 319px;
+  }
+
+  #main,
+  .structure {
+    padding: 50px 35px;
+  }
+}
+/**************** media query(768px) *********************/
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .header {
+    padding: 10px 30px;
+  }
+
+  .intro {
+    font-size: 36px;
+    font-weight: 400;
+    padding: 5px 0;
+  }
+
+  .intro span {
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  .profession {
+    font-size: 32px;
+    padding: 30px 0;
+  }
+
+  .downloadbtn {
+    width: 140px;
+    height: 50px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu-icon::before {
+    font-size: 25px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu.show-small {
+    display: block;
+    background-color: gainsboro;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 78px;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  .profile-photo {
+    width: 250px;
+    height: 240px;
+  }
+
+  .social {
+    width: 33px;
+    height: 30px;
+  }
+
+  .social::before {
+    font-size: 22px;
+  }
+
+  .education-style {
+    padding: 33px 42px;
+  }
+
+  .skill img {
+    width: 122px;
+    height: 122px;
+    padding-bottom: 24px;
+  }
+
+  .skill {
+    padding: 10px 40px 0;
+  }
+
+  .skill-name {
+    padding: 0;
+  }
+
+  .location-container {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  label {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  #submitbtn input {
+    font-size: 16px;
+    padding: 0 26px;
+    height: 25px;
+  }
+
+  #main,
+  .structure {
+    padding: 50px 30px;
+  }
+}
+
+/**************** media query(767px) *********************/
+@media screen and (max-width: 767px) {
+  .project {
+    display: block;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .project-card p {
+    margin: 0 50px;
+  }
+
+  .title-location {
+    display: block;
+  }
+
+  .location-container {
+    text-align:left;
+  }
+  
+  .location-container p {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .experience-style {
+    padding: 16px 14px;
+    margin-top: 25px;
+  }
+}
+
+/**************** media query(700px) *********************/
+@media screen and (max-width: 700px) {
+  .skill-detail {
+    grid-template-columns: auto auto;
+  }
+
+  .education-style {
+    display: block;
+    margin-top: 25px;
+    align-items: center;
+    padding: 25px 10px;
+  }
+}
+/**************** media query(500px) *********************/
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  .profession {
+    padding: 15px 0 30px 0;
+  }
+
+  .profile-photo {
+    width: 289px;
+    height: 260px;
+  }
+  
+  .social-icon {
+    padding-top: 14px;
+  }
+  
+  #main {
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+  }
+
+  .social::before {
+    font-size: 26px;
+  }
+
+  .social {
+    width: 44px;
+    height: 40px;
+  }
+
+  .skill-detail {
+    grid-template-columns: auto;
+    padding-top: 0;
+    row-gap: 0;
+  }
+
+  .skill {
+    margin-top: 25px;
+  }
+
+  #name {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+  }
+
+  form div {
+    padding: 12px 0;
+  }
+
+  form {
+    padding-top: 13px;
+  }
+
+  input,
+  textarea {
+    font-size: 18px;
+  }
+
+  .project-card p {
+    margin: 0 10px;
+  }
+}
+
+/**************** media query(320px) *********************/
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 5px 10px;
+  }
+
+  #main,
+  .structure {
+    padding: 25px 10px;
+  }
+
+  .profile-photo {
+    width: 300px;
+    height: 280px;
+  }
+  
+  .social{
+    width: 46px;
+  }
+
+  .project img {
+    width: 254px;
+    height: 190px;
+    padding: 0;
+  }
+
+  .project-card {
+    margin-top: 25px;
+  }
+
+  #submitbtn input{
+  margin-top: 13px;
+  }
+}
