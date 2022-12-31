@@ -638,6 +638,21 @@ footer p {
   .project p {
     padding: 0 15px;
   }
+  .course {
+    font-size: 26px;
+  }
+  .education-style {
+    font-size: 18px;
+  }
+  .job-detail h3 {
+    font-size: 26px;
+  }
+  .job-detail h4 {
+    font-size: 22px;
+  }
+  .location-container p {
+    font-size: 20px;
+  }
 }
 /**************** media query(320px) *********************/
 @media screen and (max-width: 320px) {
