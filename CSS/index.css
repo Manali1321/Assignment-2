@@ -429,6 +429,7 @@ footer p {
     display: block;
     border: none;
     background-color: white;
+    color: black;
   }
 
   .menu-icon::before {
